@@ -159,3 +159,21 @@ Remarks if any:
 
 
 
+
+
+
+t2: Scripting Task
+
+input :
+        pdftotext -layout result_CHN.pdf
+
+        grep CHN18CS result_CHN.txt>S1CRES.txt
+
+
+output:
+    
+       S1CRES.txt
+		
+
+
+
