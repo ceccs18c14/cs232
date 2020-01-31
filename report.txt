@@ -1,0 +1,161 @@
+CEC-CS-18-C14 	31-01-2020
+Deepa Mariam George
+
+
+--------------------------------
+#1: Sort a text file
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	sort -n work.txt
+
+
+Input: 
+---------------
+
+	# Unsorted file 
+	work.txt 	
+
+--------------------------------
+Output: 
+
+	
+0
+1
+7
+8
+9
+23
+45
+
+-------------------
+Remarks if any:
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#2: Viewing the contents of the text file
+
+Command/Shell script/Program name
+---------------------------------
+
+	cat work.txt
+
+
+
+Input: 
+---------------
+
+	work.txt	
+
+--------------------------------
+Output: 
+
+The half moon waved goodbye. A new morning. New hopes. New dreams.
+111
+000
+101
+110
+	
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+#3: Familiarisation of Miscellaneous commands
+
+Command/Shell script/Program name
+---------------------------------
+
+	man
+	ps
+
+--------------------------------
+Output: 
+	
+	# man displays the user manual of any command 
+	# ps to provide information about the currently running processes
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+
+#4: Searching the text file
+
+Command/Shell script/Program name
+---------------------------------
+         
+             grep new work.txt
+
+	
+--------------------------------
+Output: 
+	
+The half moon waved goodbye. A new morning. New hopes. New dreams.
+	
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+
+#5: Finding out the number of line count in the text file
+
+Command/Shell script/Program name
+---------------------------------
+         
+              wc -l work.txt
+
+	
+--------------------------------
+Output: 
+
+	5 work.txt
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+#6: Listing the contents of the directory
+
+Command/Shell script/Program name
+---------------------------------
+         
+              ls -l
+
+	s
+--------------------------------
+Output: 
+
+total 4
+-rw-rw-r-- 1 ceclab2 ceclab2 67 Jan 31 09:49 work.txt
+
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+
+
+
