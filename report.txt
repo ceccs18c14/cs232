@@ -1,34 +1,31 @@
-CEC-CS-18-C14 	31-01-2020
+
+CEC CS 18 C14
 Deepa Mariam George
 
-
 --------------------------------
-#1: Sort a text file
+#1: Networking tasks (t3)
 ---------------------------------
 
 Command/Shell script/Program name
 ---------------------------------
 
-	sort -n work.txt
-
-
-Input: 
----------------
-
-	# Unsorted file 
-	work.txt 	
+	ifconfig -a
+	route -n
+	route add default gw 192.168.0.2
+	ping 192.168.0.1 		
+	
 
 --------------------------------
 Output: 
 
+	# ifconfig -a displays all available network interfaces
 	
-0
-1
-7
-8
-9
-23
-45
+	# route -n displays kernal routing table
+	
+	# route add, is used add a new route to the table,
+	# route add default gw 192.168.0.2, a default gateway in this case
+
+	
 
 -------------------
 Remarks if any:
@@ -36,144 +33,79 @@ Remarks if any:
 
 
 
+
 -------------------------------------
 -------------------------------------
 
-#2: Viewing the contents of the text file
 
+#2: Ftp usage (t5)
+
+---------------------------------
 Command/Shell script/Program name
 ---------------------------------
-
-	cat work.txt
-
-
-
-Input: 
----------------
-
-	work.txt	
+	
+	sftp cs18c14@192.168.0.30
+	put report.txt
+	lcd ..
+	lpwd
+	get work.txt
+	rm work.txt
+	quit
 
 --------------------------------
-Output: 
+Output: or Input & Output (whichever is applicable)
 
-The half moon waved goodbye. A new morning. New hopes. New dreams.
-111
-000
-101
-110
-	
+	# sftp cs18c14@192.168.0.30, connect to host 192.168.0.30 via sftp
 
--------------------
-Remarks if any:
+	# put report.txt, upload report.txt
 
+	# lcd .., change local directory 
 
--------------------------------------
--------------------------------------
+	# lpwd, show local present working directory
 
-#3: Familiarisation of Miscellaneous commands
+	# get work.txt, copy work.txt from host to local system
 
-Command/Shell script/Program name
----------------------------------
+	# rm work.txt, remove work.txt from host
 
-	man
-	ps
-
---------------------------------
-Output: 
-	
-	# man displays the user manual of any command 
-	# ps to provide information about the currently running processes
-
--------------------
-Remarks if any:
-
-
--------------------------------------
--------------------------------------
-
-
-#4: Searching the text file
-
-Command/Shell script/Program name
----------------------------------
-         
-             grep new work.txt
-
-	
---------------------------------
-Output: 
-	
-The half moon waved goodbye. A new morning. New hopes. New dreams.
-	
--------------------
-Remarks if any:
-
-
--------------------------------------
--------------------------------------
-
-
-#5: Finding out the number of line count in the text file
-
-Command/Shell script/Program name
----------------------------------
-         
-              wc -l work.txt
-
-	
---------------------------------
-Output: 
-
-	5 work.txt
-
--------------------
-Remarks if any:
-
-
--------------------------------------
--------------------------------------
-
-
-
-#6: Listing the contents of the directory
-
-Command/Shell script/Program name
----------------------------------
-         
-              ls -l
-
-	s
---------------------------------
-Output: 
-
-total 4
--rw-rw-r-- 1 ceclab2 ceclab2 67 Jan 31 09:49 work.txt
+	# quit, quit current ftp session
 
 
 -------------------
 Remarks if any:
-
-
--------------------------------------
--------------------------------------
-
-
-
-
-
-
-t2: Scripting Task
-
-input :
-        pdftotext -layout result_CHN.pdf
-
-        grep CHN18CS result_CHN.txt>S1CRES.txt
-
-
-output:
-    
-       S1CRES.txt
 		
 
+-------------------------------------
+-------------------------------------
 
+
+--------------------------------
+#3: Further Networking tasks (t4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ssh
+	rsync
+	scp
+
+--------------------------------
+Output: 
+
+	# ssh cs18c14@192.168.0.30, is used to open a secured connection to remote device
+	
+	# rsync -av 2701/ test/, is used to sync the files across 2701/ and test/ 
+	
+	# scp report.txt cs18c14@192.168.0.30:2701, this is used to upload report.txt to 2701/ in the host 192.168.0.30
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+--------------------------------
 
