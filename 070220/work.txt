@@ -1,0 +1,192 @@
+Script started on Friday 07 February 2020 09:39:13 AM IST
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ if [Kcon[K[K[K[K[Kifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.208  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::a8db:c203:fa3a:62b4/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:41593 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10587 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:24380836 (24.3 MB)  TX bytes:1038500 (1.0 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4404 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4404 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:295224 (295.2 KB)  TX bytes:295224 (295.2 KB)
+
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ ifconfig -a
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.208  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::a8db:c203:fa3a:62b4/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:43143 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10730 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:24510366 (24.5 MB)  TX bytes:1050425 (1.0 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:4580 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4580 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:307016 (307.0 KB)  TX bytes:307016 (307.0 KB)
+
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     *               255.255.254.0   U     100    0        0 enp1s0
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ iwconfig
+enp1s0    no wireless extensions.
+
+lo        no wireless extensions.
+
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ ping
+Usage: ping [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ gedit repoe[Krt.txt
+^C
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ i[Kroute -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp1s0
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ route add default gw 192.168.0.2
+SIOCADDRT: Operation not permitted
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ ca[K[Kecho "nameserver 1.1.1.1"
+nameserver 1.1.1.1
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ resolv.cong[Kf
+No command 'resolv.conf' found, did you mean:
+ Command 'resolvconf' from package 'openresolv' (universe)
+ Command 'resolvconf' from package 'resolvconf' (main)
+resolv.conf: command not found
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ ssh
+usage: ssh [-1246AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-E log_file] [-e escape_char]
+           [-F configfile] [-I pkcs11] [-i identity_file] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] [user@]hostname [command]
+]0;ceclab2@ceclab2-H110M-S2: ~/ceccs18c14/cs232[01;32mceclab2@ceclab2-H110M-S2[00m:[01;34m~/ceccs18c14/cs232[00m$ rsync
+rsync  version 3.1.1  protocol version 31
+Copyright (C) 1996-2014 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during 
