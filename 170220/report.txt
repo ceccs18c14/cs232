@@ -1,0 +1,40 @@
+CEC CS 18 C14 17-02-2020
+DEEPA MARIAM GEORGE
+
+--------------------------------
+#1: SCRIPTING TASK (t2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	work.txt
+
+Input: 
+---------------
+
+	# result downloaded from ktu site
+	/SX/result_CHN.pdf
+
+	# student details file containing roll number 
+	/SX/students.txt
+
+
+--------------------------------
+Output: 
+
+	# file with cgpa/count of subjects student failed in 
+	/SX/sgpa.txt
+
+
+-------------------
+Remarks if any:
+
+	X in 'SX' is replaced with 1 or 2 for corresponding semester
+	
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
