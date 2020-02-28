@@ -1,0 +1,36 @@
+CEC CS 18 C14 28-02-2020 
+DEEPA MARIAM GEORGE
+Mac Address: 38:d5:47:b8:da:8a  
+
+--------------------------------
+
+#1: Create own web page at our server (t9)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	# To fetch the sample index	
+	wget http://192.168.0.30/cs18c/cs18c00
+	# To put the page to the server
+	sftp
+	# To edit the contents of .html file
+	nano 	
+
+--------------------------------
+Output: 
+
+	# The page can be viewed at
+	http://192.168.0.30/cs18c/cs18c14
+
+-------------------
+Remarks if any:
+	
+	
+	The links to work.txt and report.txt directing to HTTP 403
+	
+
+
+
+-------------------------------------
+-------------------------------------
