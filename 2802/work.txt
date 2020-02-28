@@ -1,0 +1,33 @@
+Script started on Friday 28 February 2020 09:40:44 AM IST
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ gedit index [K,[K.html
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ gedit index.html
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ gedit index.html
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ gedit index.html
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ gedit index.html
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ gedit index.html
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ gedit index.html
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ gedit index.html
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ [K]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ sftp cs18c14@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c14@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir 2802
+sftp> cd 2802
+sftp> ls
+sftp> put index.html
+Uploading index.html to /home/cs18c14/2802/index.html
+index.html                                                                                                     0%    0     0.0KB/s   --:-- ETAindex.html                                                                                                   100% 3225     3.2KB/s   00:00    
+sftp> put work.txt
+Uploading work.txt to /home/cs18c14/2802/work.txt
+work.txt                                                                                                     100%    0     0.0KB/s   00:00    
+sftp> ls
+index.html   work.txt     
+sftp> exit
+]0;cec-lab2@ceclab2-System-Product-Name: ~/ceccs18c14/cs232/2802[01;32mcec-lab2@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c14/cs232/2802[00m$ exit
+exit
+
+Script done on Friday 28 February 2020 10:51:47 AM IST
