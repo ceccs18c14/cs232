@@ -1,0 +1,32 @@
+CEC CS 18 C14 20-03-2020
+
+DEEPA MARIAM GEORGE
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Ubuntu CD
+	Ubuntu 18.04.4 LTS
+
+		
+
+--------------------------------
+Output: 
+	
+	# Screenshots 1-5 (.png) shows various steps of installation.
+	
+	
+	# Ubuntu is installed alongside Windows.
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
