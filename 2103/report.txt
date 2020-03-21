@@ -1,0 +1,44 @@
+CEC CS 18 C14 21-03-2020
+DEEPA MARIAM GEORGE
+
+
+--------------------------------
+#1: Perl (t8) (2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Hello world program
+	/perl/helloworld.pl	
+
+	# Program to add two numbers
+	/perl/sum2num.pl
+
+	# Program to check whether a number is odd or even 
+	/perl/odd-even.pl
+
+--------------------------------
+Output: 
+	
+	# Output of helloworld.pl
+	Hello World!
+
+	# Output of sum2num.pl
+	Enter two numbers: 9
+	7
+	
+	Sum is 16
+
+	# Output of odd-even.pl	
+	Enter a number: 9
+	Given number is odd
+	
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------

@@ -1,0 +1,90 @@
+Script started on 2020-03-21 12:59:41+0530
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ hedit[K[K[K[K[Kgedit helloworld.pl
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ perl helloworld.pl
+Hello World!
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ gedit sumofnums[K[K[K[K[K[K@[K2nums[K.pl
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ pe[C[C[K[Kgedit sum2num.pl[1P sum2num.pl[1P sum2num.pl[1P sum2num.pl[1P sum2num.pl[1P sum2num.plp sum2num.ple sum2num.plr sum2num.pll sum2num.pl
+
+Enter two numbers: 9
+7
+
+Sum is 16
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ gedit odd-[K-even.pl
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ gedit odd-even.pl[1P odd-even.pl[1P odd-even.pl[1P odd-even.pl[1P odd-even.pl[1P odd-even.plp odd-even.ple odd-even.plr odd-even.pll odd-even.pl
+Global symbol "$num" requires explicit package name (did you forget to declare "my $num"?) at odd-even.pl line 4.
+Global symbol "$num" requires explicit package name (did you forget to declare "my $num"?) at odd-even.pl line 5.
+Execution of odd-even.pl aborted due to compilation errors.
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ perl odd-even.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ gedit odd-even.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C
+Global symbol "$n" requires explicit package name (did you forget to declare "my $n"?) at odd-even.pl line 4.
+Global symbol "$n" requires explicit package name (did you forget to declare "my $n"?) at odd-even.pl line 5.
+Execution of odd-even.pl aborted due to compilation errors.
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ perl odd-even.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ gedit odd-even.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C
+Enter a number:7
+Given number is odd 
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ gedit report.txt
+^[[A^[[A^[[A            ]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ gedit report.txtperl odd-even.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[2Pperl sum2num.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[Cperl helloworld.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c14@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c14@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> put '/home/godi/ceccs18c14/cs232/2103/helloworld.pl' 
+Uploading /home/godi/ceccs18c14/cs232/2103/helloworld.pl to /home/cs18c14/helloworld.pl
+/home/godi/ceccs18c14/cs232/2103/helloworld.p   0%    0     0.0KB/s   --:-- ETA/home/godi/ceccs18c14/cs232/2103/helloworld.p 100%   40     0.3KB/s   00:00    
+sftp> put '/home/godi/ceccs18c14/cs232/2103/odd-even.pl' [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K'/home/godi/ceccs18c14/cs232/2103/sum2num.pl' [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kput sum2num.pl
+Uploading sum2num.pl to /home/cs18c14/sum2num.pl
+sum2num.pl                                      0%    0     0.0KB/s   --:-- ETAsum2num.pl                                    100%  149     0.9KB/s   00:00    
+sftp> put odd-even.pl
+Uploading odd-even.pl to /home/cs18c14/odd-even.pl
+odd-even.pl                                     0%    0     0.0KB/s   --:-- ETAodd-even.pl                                   100%  154     1.0KB/s   00:00    
+sftp> put work.txt
+Uploading work.txt to /home/cs18c14/work.txt
+work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100% 4096    16.3KB/s   00:00    
+sftp> put report.txt
+Uploading report.txt to /home/cs18c14/report.txt
+report.txt                                      0%    0     0.0KB/s   --:-- ETAreport.txt                                    100%  704     3.0KB/s   00:00    
+sftp> ls
+1702                2003                2802                310120              
+cs232               examples.desktop    helloworld.pl       odd-even.pl         
+report.txt          sum2num.pl          work.txt            
+sftp> rm helloword[Kd[Kld.pl
+Removing /home/cs18c14/helloworld.pl
+sftp> rm sum2num.pl
+Removing /home/cs18c14/sum2num.pl
+sftp> rm odd-even.pl
+Removing /home/cs18c14/odd-even.pl
+sftp> rm work.txt
+Removing /home/cs18c14/work.txt
+sftp> rm report.txt
+Removing /home/cs18c14/report.txt
+sftp> mkdir 2103
+sftp> cd 2103
+sftp> ls
+sftp> put helloworld.txt
+stat helloworld.txt: No such file or directory
+sftp> put helloworld.txt[K[K[Kpl
+Uploading helloworld.pl to /home/cs18c14/2103/helloworld.pl
+helloworld.pl                                   0%    0     0.0KB/s   --:-- ETAhelloworld.pl                                 100%   40     0.1KB/s   00:00    
+sftp> put sum2num.pl
+Uploading sum2num.pl to /home/cs18c14/2103/sum2num.pl
+sum2num.pl                                      0%    0     0.0KB/s   --:-- ETAsum2num.pl                                    100%  149     1.1KB/s   00:00    
+sftp> put odd-even.pl
+Uploading odd-even.pl to /home/cs18c14/2103/odd-even.pl
+odd-even.pl                                     0%    0     0.0KB/s   --:-- ETAodd-even.pl                                   100%  154     0.5KB/s   00:00    
+sftp> put work.txt
+Uploading work.txt to /home/cs18c14/2103/work.txt
+work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100% 4096     8.6KB/s   00:00    
+sftp> put report.txt
+Uploading report.txt to /home/cs18c14/2103/report.txt
+report.txt                                      0%    0     0.0KB/s   --:-- ETAreport.txt                                    100%  704     4.4KB/s   00:00    
+sftp> ls
+helloworld.pl   odd-even.pl     report.txt      sum2num.pl      work.txt        
+sftp> exit
+]0;godi@mypc: ~/ceccs18c14/cs232/2103[01;32mgodi@mypc[00m:[01;34m~/ceccs18c14/cs232/2103[00m$ exit
+exit
+
+Script done on 2020-03-21 13:28:06+0530
