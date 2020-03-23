@@ -1,5 +1,7 @@
-CS 18 C14  22-03-2020
+CEC CS 18 C14 20-03-2020
+
 DEEPA MARIAM GEORGE
+
 
 --------------------------------
 #1: Linux Installation (t6)
@@ -7,51 +9,24 @@ DEEPA MARIAM GEORGE
 
 Command/Shell script/Program name
 ---------------------------------
-
-		System details:
-
-		#df -h
-		
-		Filesystem      Size  Used Avail Use% Mounted on
-		udev            1.9G     0  1.9G   0% /dev
-		tmpfs           385M  1.8M  383M   1% /run
-		/dev/sda4       163G  6.8G  148G   5% /
-		tmpfs           1.9G   66M  1.9G   4% /dev/shm
-		tmpfs           5.0M  4.0K  5.0M   1% /run/lock
-		tmpfs           1.9G     0  1.9G   0% /sys/fs/cgroup
-		/dev/loop2       13M   13M     0 100% /snap/gnome-characters/139
-		/dev/loop4       91M   91M     0 100% /snap/core/6350
-		/dev/loop0       35M   35M     0 100% /snap/gtk-common-themes/818
-		/dev/loop1      141M  141M     0 100% /snap/gnome-3-26-1604/74
-		/dev/loop6       15M   15M     0 100% /snap/gnome-logs/45
-		/dev/loop3      2.3M  2.3M     0 100% /snap/gnome-calculator/260
-		/dev/loop5      3.8M  3.8M     0 100% /snap/gnome-system-monitor/57
-		tmpfs           385M   16K  385M   1% /run/user/121
-		tmpfs           385M   40K  385M   1% /run/user/1000
+	
+	# Ubuntu CD
+	Ubuntu 18.04.4 LTS
 
 		
-		#uname -a
 
-		Linux mypc 5.3.0-28-generic #30~18.04.1-Ubuntu SMP Fri Jan 17 06:14:09 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+--------------------------------
+Output: 
+	
+	# Screenshots 1-5 (.png) shows various steps of installation.
+	
+	
+	# Ubuntu is installed alongside Windows.
 
-
-		root at /dev/sda4
-
-		Size: 163 GB
-
-
-
---------------------------------------------------------------------------------------------------------------
-
+-------------------
 Remarks if any:
----------------------------------------------------------------------------------------------------------------
+	
+	
 
-
-------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
+-------------------------------------
+-------------------------------------
