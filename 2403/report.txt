@@ -1,0 +1,55 @@
+CEC CS 18 C14       24-03-20
+DEEPA MARIAM GEORGE
+
+
+--------------------------------
+#1: Package management (t8)(1)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+    # Update local package
+     sudo apt-get update
+
+	
+    # To install links2
+    sudo apt-get install links2
+
+
+    # To remove link2
+    sudo apt remove links2
+
+ 
+    # To install tasksel
+    sudo apt-get install tasksel
+    
+
+    # To remove tasksel
+    sudo apt remove tasksel
+	 
+    
+    # To list all installed packages
+    sudo apt list > package.txt
+
+
+--------------------------------
+
+
+Output: 
+	
+	# List of installed packages
+    package.txt	
+
+-------------------
+
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+	
+	
+	
+
