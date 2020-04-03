@@ -1,0 +1,40 @@
+CEC CS 18 C 14    03-04-2020
+
+DEEPA MARIAM GEORGE
+
+MAC ADDRESS:  b8:2a:72:9f:87:6a
+
+-------------------------------------
+#1: Menu driven calcuator (s6)
+-------------------------------------
+
+ 
+Command/Shell script/Program name
+--------------------------------------
+
+	#shell script
+	  simple-calculator.sh
+
+
+	#modify permission
+	  chmod +x simple-calculator.sh
+
+
+	#run script
+	  ./simple-calculator.sh
+
+
+-------------------------------------------------
+Output: 
+
+	#Screenshot showing calculator in action
+	  capture.png
+	
+
+-------------------------------------------------
+Remarks if any:
+
+
+
+-------------------------------------------------
+-------------------------------------------------
