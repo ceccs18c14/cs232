@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+if [[ $# -eq 2 ]] 
+then
+
+	if test -f "$1"; then
+		
+		if grep -Fxq "$2" "$1"; then			
+			echo "$2 Exists in file"
+		else
+			echo "$2" >> $1
+			echo "Added $2"
+		fi
+
+	else 
+		echo "FILE DOESNT EXIST"
+	fi
+
+else
+	echo "Wrong Number of Arguments"
+fi

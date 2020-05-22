@@ -1,0 +1,96 @@
+CEC CS 18 C14 22-05-2020
+DEEPA MARIAM GEORGE
+
+MAC Address: 00:71:cc:3a:49:ef
+
+--------------------------------
+#1: Shell Programming (s4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	system_config_1.sh
+
+--------------------------------
+Output: 
+
+	# Currently logged user and login name 
+	# Current shell 
+	# Home directory 
+	# Operating system type 
+	# Current path setting 
+	# Current working directory 
+	# Currently logged in users
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Shell Programming (s5)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	system_config_2.sh
+
+--------------------------------
+Output: 
+
+	# OS and version, release number, kernel version 
+	# all available shells 
+	# computer CPU information like processor type, speed etc 
+	# memory information 
+	# hard disk information like size of hard-disk, cache memory, model etc 
+	# File system (Mounted) 
+
+-------------------
+Remarks if any:
+
+	
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#3: Add Names Script (s7)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+		
+	
+	#Making Executable:
+  	chmod +x addnames
+
+	#Run Program
+  	./addnames list <username>
+
+--------------------------------
+Input & Output (whichever is applicable): 
+	
+	# Here the script will check if "filename" exists and if it does the script will check if "username" is in that file.
+	# If file doesn't exist it will print error message.
+	# If username is not in file it will add the name to the file.
+	
+	---Input---
+
+	./addnames <filename> <username>
+	
+	---Output---
+
+	Added <username>
+
+-----------------------------------------
+Remarks if any:
+
+	
+-------------------------------------
+-------------------------------------
+
+

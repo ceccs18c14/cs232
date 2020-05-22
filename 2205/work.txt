@@ -1,0 +1,250 @@
+Script started on 2020-05-22 21:28:33+0530
+]0;godi@deepa: ~/ceccs18c14/cs232/2205[01;32mgodi@deepa[00m:[01;34m~/ceccs18c14/cs232/2205[00m$ exitsudo ./system_config_1.sh[1P ./system_config_1.sh[1P ./system_config_1.sh[1P ./system_config_1.sh[1P ./system_config_1.sh[C[1P./system_config_1.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[3J[H[2JUsername : godi
+ 
+Home directory : /home/godi
+ 
+Operating System Type:
+GNU/Linux
+ 
+Current path setting : /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+ 
+Current working directory :
+/home/godi/ceccs18c14/cs232/2205
+ 
+Number of users currently logged in:
+deepa    :0           2020-05-22 21:01 (:0)
+godi     :1           2020-05-22 21:15 (:1)
+ 
+]0;godi@deepa: ~/ceccs18c14/cs232/2205[01;32mgodi@deepa[00m:[01;34m~/ceccs18c14/cs232/2205[00m$ ./system_config_1.shexit[Ksudo ./system_config_1.sh[5P.\script_config_1.shsudo ./script_config_1.sh\script_config_1.sh/system_config_2.sh
+[sudo] password for godi: 
+[3J[H[2JOperating System Information :
+
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.4 LTS"
+NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+
+List of all available shells :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+
+CPU information :
+
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  2
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               69
+Model name:          Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz
+Stepping:            1
+CPU MHz:             1377.244
+CPU max MHz:         1700.0000
+CPU min MHz:         800.0000
+BogoMIPS:            3392.06
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            3072K
+NUMA node0 CPU(s):   0-3
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+
+
+Memory Information :
+
+MemTotal:        3932612 kB
+MemFree:         1368960 kB
+MemAvailable:    1888408 kB
+Buffers:           71416 kB
+Cached:           954728 kB
+SwapCached:            0 kB
+Active:          1601164 kB
+Inactive:         526916 kB
+Active(anon):    1302044 kB
+Inactive(anon):   130488 kB
+Active(file):     299120 kB
+Inactive(file):   396428 kB
+Unevictable:      198916 kB
+Mlocked:              32 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:                 4 kB
+Writeback:             0 kB
+AnonPages:       1300952 kB
+Mapped:           396768 kB
+Shmem:            330600 kB
+KReclaimable:      53192 kB
+Slab:             107508 kB
+SReclaimable:      53192 kB
+SUnreclaim:        54316 kB
+KernelStack:       13552 kB
+PageTables:        62020 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     4063452 kB
+Committed_AS:    7993804 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       27948 kB
+VmallocChunk:          0 kB
+Percpu:             1392 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      199236 kB
+DirectMap2M:     3897344 kB
+DirectMap1G:           0 kB
+
+
+Hard Disk Information :
+
+DMI   SMP   PA-RISC       device-tree           SPD   memory      /proc/cpuinfo             CPUID     PCI (sysfs)           ISA PnP       PCMCIA      PCMCIA      Virtual I/O (VIRTIO) devices                            kernel device tree (sysfs)                          USB   IDE   SCSI    Network interfaces                  Framebuffer devices                   Display       CPUFreq       ABI     *-storage
+       description: SATA controller
+       product: 8 Series SATA Controller 1 [AHCI mode]
+       vendor: Intel Corporation
+       physical id: 1f.2
+       bus info: pci@0000:00:1f.2
+       version: 04
+       width: 32 bits
+       clock: 66MHz
+       capabilities: storage msi pm ahci_1.0 bus_master cap_list
+       configuration: driver=ahci latency=0
+       resources: irq:44 ioport:f0b0(size=8) ioport:f0a0(size=4) ioport:f090(size=8) ioport:f080(size=4) ioport:f060(size=32) memory:f7e1a000-f7e1a7ff
+  *-scsi:0
+       physical id: 8
+       logical name: scsi0
+       capabilities: emulated
+     *-disk
+          description: ATA Disk
+          product: TOSHIBA MQ01ABF0
+          vendor: Toshiba
+          physical id: 0.0.0
+          bus info: scsi@0:0.0.0
+          logical name: /dev/sda
+          version: 1D
+          serial: 449YCYULT
+          size: 465GiB (500GB)
+          capabilities: partitioned partitioned:dos
+          configuration: ansiversion=5 logicalsectorsize=512 sectorsize=4096 signature=fc7d615b
+  *-scsi:1
+       physical id: 9
+       logical name: scsi1
+       capabilities: emulated
+     *-cdrom
+          description: DVD-RAM writer
+          product: DVD+-RW UJ8E2
+          vendor: MATSHITA
+          physical id: 0.0.0
+          bus info: scsi@1:0.0.0
+          logical name: /dev/cdrom
+          logical name: /dev/cdrw
+          logical name: /dev/dvd
+          logical name: /dev/dvdrw
+          logical name: /dev/sr0
+          version: 1.01
+          capabilities: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+          configuration: ansiversion=5 status=nodisc
+
+
+File System Information :
+
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+udev /dev devtmpfs rw,nosuid,relatime,size=1942008k,nr_inodes=485502,mode=755 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,noexec,relatime,size=393264k,mode=755 0 0
+/dev/sda4 / ext4 rw,relatime,errors=remount-ro 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
+tmpfs /run/lock tmpfs rw,nosuid,nodev,noexec,relatime,size=5120k 0 0
+tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,mode=755 0 0
+cgroup /sys/fs/cgroup/unified cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate 0 0
+cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,name=systemd 0 0
+pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/rdma cgroup rw,nosuid,nodev,noexec,relatime,rdma 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+mqueue /dev/mqueue mqueue rw,relatime 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=34,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=3676 0 0
+debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,relatime 0 0
+configfs /sys/kernel/config configfs rw,relatime 0 0
+/dev/loop1 /snap/teams-for-linux/79 squashfs ro,nodev,relatime 0 0
+/dev/loop4 /snap/gnome-logs/45 squashfs ro,nodev,relatime 0 0
+/dev/loop2 /snap/core18/1705 squashfs ro,nodev,relatime 0 0
+/dev/loop0 /snap/gnome-3-26-1604/74 squashfs ro,nodev,relatime 0 0
+/dev/loop8 /snap/gnome-characters/139 squashfs ro,nodev,relatime 0 0
+/dev/loop10 /snap/gnome-calculator/260 squashfs ro,nodev,relatime 0 0
+/dev/loop9 /snap/gnome-3-26-1604/98 squashfs ro,nodev,relatime 0 0
+/dev/loop6 /snap/gnome-system-monitor/57 squashfs ro,nodev,relatime 0 0
+/dev/loop7 /snap/gnome-calculator/704 squashfs ro,nodev,relatime 0 0
+/dev/loop12 /snap/core/6350 squashfs ro,nodev,relatime 0 0
+/dev/loop11 /snap/gnome-3-28-1804/116 squashfs ro,nodev,relatime 0 0
+/dev/loop14 /snap/gnome-characters/495 squashfs ro,nodev,relatime 0 0
+/dev/loop13 /snap/gtk-common-themes/1474 squashfs ro,nodev,relatime 0 0
+/dev/loop15 /snap/gnome-logs/93 squashfs ro,nodev,relatime 0 0
+/dev/loop16 /snap/core/8935 squashfs ro,nodev,relatime 0 0
+/dev/loop3 /snap/gnome-system-monitor/135 squashfs ro,nodev,relatime 0 0
+/dev/loop5 /snap/gtk-common-themes/818 squashfs ro,nodev,relatime 0 0
+tmpfs /run/user/121 tmpfs rw,nosuid,nodev,relatime,size=393260k,mode=700,uid=121,gid=125 0 0
+tmpfs /run/user/1001 tmpfs rw,nosuid,nodev,relatime,size=393260k,mode=700,uid=1001,gid=1001 0 0
+gvfsd-fuse /run/user/1001/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1001,group_id=1001 0 0
+tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=393260k,mode=700,uid=1000,gid=1000 0 0
+gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=1000 0 0
+
+
+]0;godi@deepa: ~/ceccs18c14/cs232/2205[01;32mgodi@deepa[00m:[01;34m~/ceccs18c14/cs232/2205[00m$ chmod +x addnames
+]0;godi@deepa: ~/ceccs18c14/cs232/2205[01;32mgodi@deepa[00m:[01;34m~/ceccs18c14/cs232/2205[00m$ ./addnames mariam
+Wrong Number of Arguments
+]0;godi@deepa: ~/ceccs18c14/cs232/2205[01;32mgodi@deepa[00m:[01;34m~/ceccs18c14/cs232/2205[00m$ ./addnames mariaml mariam[1@ [Ci mariams mariamt mariam
+mariam Exists in file
+]0;godi@deepa: ~/ceccs18c14/cs232/2205[01;32mgodi@deepa[00m:[01;34m~/ceccs18c14/cs232/2205[00m$ ./addnames list chris
+Added chris
+]0;godi@deepa: ~/ceccs18c14/cs232/2205[01;32mgodi@deepa[00m:[01;34m~/ceccs18c14/cs232/2205[00m$ [K]0;godi@deepa: ~/ceccs18c14/cs232/2205[01;32mgodi@deepa[00m:[01;34m~/ceccs18c14/cs232/2205[00m$ exit
+exit
+
+Script done on 2020-05-22 21:33:01+0530
